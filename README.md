@@ -230,7 +230,7 @@ defaults.
 | Ridge Classifier | `alpha` | [1e-4, 1e4] |
 | Decision Tree | `max_depth` | [2, 30] |
 | | `min_samples_split` | [2, 25] |
-| Multi-layer Perceptron | `hidden_layer_sizes` | [1, 30] (binary) / [1, 100] (multiclass) |
+| Multi-layer Perceptron | `hidden_layer_sizes` | [1, 100] |
 | | `alpha` | [1e-4, 1e4] |
 | Logistic Regression | `C` | [1e-4, 1e4] |
 | | `max_iter` | 1000 (fixed) |
