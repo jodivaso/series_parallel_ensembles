@@ -254,7 +254,7 @@ defaults.
 ## Datasets
  
 Datasets were downloaded automatically from OpenML, keeping those with more than 1 000 and
-fewer than 30 000 instances and fewer than 500 columns, so that they are representative
+fewer than 30 000 instances and fewer than 500 columns (before preprocessing), so that they are representative
 without making the experiments prohibitively expensive.
  
 * **Binary (43 datasets):** only binary-classification datasets, discarding those in which a
